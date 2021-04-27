@@ -25,6 +25,8 @@ class Perro:
 def volar(self, kms):
     if self.energia-(10 + kms)>=0:
         self.energia -= 10 + kms
+    else:
+        print("No tengo suficiente energía para volar. Necesito comer alpiste para recargar energía")
 
 #Ejercicio 3
 class Notebook:
@@ -33,8 +35,9 @@ class Notebook:
         self.modelo=modelo
         self.precio=precio
 
-    def desceunto(self, descuento):
-        self.precio-=(descuento/100)*precio
+    def desceunto(self, numero):
+        descuento=(numero/100)*self.precio
+        return(self.precio-descuento)
 
 #Ejercicio 4
 class contador:
