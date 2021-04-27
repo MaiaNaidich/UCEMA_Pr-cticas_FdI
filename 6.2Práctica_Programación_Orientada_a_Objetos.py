@@ -35,7 +35,6 @@ class Notebook:
 
     def desceunto(self, descuento):
         self.precio-=(descuento/100)*precio
-        print("El precio final (con el descuento aplicado) es "+int(self.precio))
 
 #Ejercicio 4
 class contador:
