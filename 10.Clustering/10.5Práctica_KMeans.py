@@ -18,7 +18,7 @@ import community as community_louvain #Para louvain
 import networkx as nx #Para grafos
 
 #PASO 1
-stock_data = pd.read_csv("https://raw.githubusercontent.com/AJVelezRueda/Fundamentos_de_informatica/master/Ciencia_de_datos/practicos/recursos/dataset_clustering_teorico.csv")
+stock_data = pd.read_csv("F:\\Fundamentos_de_Informática\\dataset_clustering_teorico.csv")
 stock_data.head()
 stock_data.info()
 stock_data.describe()
